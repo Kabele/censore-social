@@ -68,12 +68,13 @@
 
 		// Initialize Firebase
 		var config = {
-			apiKey: '{{config('services.firebase.api_key')}}',
-			authDomain: '{{config('services.firebase.auth_domain')}}',
+			apiKey: "{{config('services.firebase.api_key')}}",
+			authDomain: "{{config('services.firebase.auth_domain')}}",
 			databaseURL: "{{config('services.firebase.database_url')}}",
 			projectId: "{{config('services.firebase.project_id')}}",
 			storageBucket: "{{config('services.firebase.storage_bucket')}}",
-			messagingSenderId: "{{config('services.firebase.messaging_sender_id')}}"
+			messagingSenderId: "{{config('services.firebase.messaging_sender_id')}}",
+			appId: "{{config('services.firebase.app_Id')}}"
 		};
 		firebase.initializeApp(config);
 

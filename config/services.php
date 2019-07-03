@@ -39,9 +39,10 @@ return [
         'api_key' => 'AIzaSyCVxqsRK9GpYRFyAA0SKbA8s4nT2QwD-Mc',
         'auth_domain' => 'crawford-4be69.firebaseapp.com',
         'database_url' => 'https://crawford-4be69.firebaseio.com',
-        'secret' => 'DATABASE_SECRET',
-        'storage_bucket' => 'crawford-4be69.appspot.com',
+        'secret' => 'HT2fHtjB83pZ0yNKnlBi3H6N4jIUfISm9DpPIQsF',
+        'storage_bucket' => 'bucket.appspot.com',
         'project_id' => 'crawford-4be69',
-        'messaging_sender_id' => '89644384796'
+        'messaging_sender_id' => '89644384796',
+        'appId' => '1:89644384796:web:6056c9c56f7fdf23'
     ]
 ];
